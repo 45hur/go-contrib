@@ -8,9 +8,9 @@ import (
 	"fmt"
 	"os"
 
+	"github.com/45hur/go-contrib/logrusHelper"
 	"github.com/45hur/logrus"
-	"github.com/heirko/go-contrib/logrusHelper"
-	_ "github.com/heralight/logrus_mate/hooks/file"
+	_ "github.com/45hur/logrus_mate/hooks/file"
 	"github.com/spf13/viper"
 
 	"time"
