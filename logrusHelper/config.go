@@ -4,8 +4,8 @@ import (
 	"io"
 	"log"
 
+	"github.com/45hur/logrus"
 	mate "github.com/heralight/logrus_mate"
-	"github.com/sirupsen/logrus"
 	"github.com/spf13/viper"
 )
 

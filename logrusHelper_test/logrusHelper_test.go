@@ -1,4 +1,5 @@
 package logrusHelper_Test
+
 // there is a bug in go < 1.9 with test only package and name, bug on namespace, we need to break recognition...
 
 import (
@@ -7,9 +8,9 @@ import (
 	"fmt"
 	"os"
 
+	"github.com/45hur/logrus"
 	"github.com/heirko/go-contrib/logrusHelper"
 	_ "github.com/heralight/logrus_mate/hooks/file"
-	"github.com/sirupsen/logrus"
 	"github.com/spf13/viper"
 
 	"time"
